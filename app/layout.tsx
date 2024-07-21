@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Hero from "@/components/hero";
+import Creators from "@/components/creators";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -24,6 +25,7 @@ export default function RootLayout({
           <main>
             {children}
             <Hero />
+            <Creators />
           </main>
           <Footer />
         </div>

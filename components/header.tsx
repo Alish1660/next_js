@@ -11,7 +11,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-custom-gray h-24 flex items-center font-sans ">
+    <header className="bg-custom-gray h-24 flex items-center font-sans sticky top-0  z-50 py-4 ">
       <div className="flex items-center justify-between px-3 md:px-2 max-w-1250px mx-auto w-full">
         <div className="flex items-center">
           <Image src={Logo} alt="Logo" width={50} height={50} />

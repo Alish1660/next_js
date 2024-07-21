@@ -12,6 +12,8 @@ module.exports = {
       },
       colors: {
         "custom-gray": "rgba(43, 43, 43, 1)",
+        "second-gray": " rgba(59, 59, 59, 1) ",
+
         "custom-purple": "rgba(162, 89, 255, 1)",
       },
       maxWidth: {
