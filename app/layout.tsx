@@ -7,6 +7,9 @@ import Hero from "@/components/hero";
 import Creators from "@/components/creators";
 import Categories from "@/components/categories";
 import Collection from "@/components/collection";
+import More from "@/components/more";
+import Works from "@/components/works";
+import Digest from "@/components/digest";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -30,6 +33,9 @@ export default function RootLayout({
             <Collection />
             <Creators />
             <Categories />
+            <More />
+            <Works />
+            <Digest />
           </main>
           <Footer />
         </div>
