@@ -6,14 +6,14 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        sm: "375px", // Small screens
-        md: "756px", // Medium screens
-        lg: "1024px", // Large screens
+        sm: "480px",
+        md: "834px",
+        lg: "1050px",
       },
       colors: {
         "custom-gray": "rgba(43, 43, 43, 1)",
         "second-gray": " rgba(59, 59, 59, 1) ",
-
+        "third-gray": "  rgba(43, 43, 43, 1);",
         "custom-purple": "rgba(162, 89, 255, 1)",
       },
       maxWidth: {
